@@ -18,7 +18,7 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Ruby',
       description:
         'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
       image: 'cookie-tin.jpg',
@@ -27,7 +27,7 @@ db.once('open', async () => {
       quantity: 500
     },
     {
-      name: 'Canned Coffee',
+      name: 'Sapphire',
       description:
         'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
       image: 'canned-coffee.jpg',
@@ -36,7 +36,7 @@ db.once('open', async () => {
       quantity: 500
     },
     {
-      name: 'Toilet Paper',
+      name: 'Emerald',
       category: categories[1]._id,
       description:
         'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
@@ -45,7 +45,7 @@ db.once('open', async () => {
       quantity: 20
     },
     {
-      name: 'Handmade Soap',
+      name: 'Diamond',
       category: categories[1]._id,
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
@@ -54,7 +54,7 @@ db.once('open', async () => {
       quantity: 50
     },
     {
-      name: 'Set of Wooden Spoons',
+      name: 'Pearl',
       category: categories[1]._id,
       description:
         'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
