@@ -90,7 +90,7 @@ db.once('open', async () => {
       quantity: 100
     },
     {
-      name: 'Spinning Top',
+      name: 'Pendants',
       category: categories[4]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
       image: 'spinning-top.jpg',
@@ -98,7 +98,7 @@ db.once('open', async () => {
       quantity: 1000
     },
     {
-      name: 'Set of Plastic Horses',
+      name: 'Clasps',
       category: categories[4]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
@@ -107,7 +107,7 @@ db.once('open', async () => {
       quantity: 1000
     },
     {
-      name: 'Teddy Bear',
+      name: 'Crystal',
       category: categories[4]._id,
       description:
         'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
@@ -116,7 +116,7 @@ db.once('open', async () => {
       quantity: 100
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'CZ',
       category: categories[4]._id,
       description:
         'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
